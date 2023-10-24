@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <h2>{{user_profile.name}}</h2>
+    <h3>{{user_profile.email}}</h3>
+    <h3>{{user_profile.phone}}</h3>
+    <hr/>
+    <br>
+    <h4>Summary</h4>
+    <p>{{user_profile.summary}}</p>
+    <hr/>
+    <br>
+    <h4>Previous Work</h4>
+    <p>{{user_profile.previous_work}}</p>
+    <hr/>
+    <br>
+    <h4>Skills</h4>
+    <p>{{user_profile.skills}}</p>
+    <hr/>
+    <br>
+    <h4>Education</h4>
+    <ul>
+        <li>Degree : {{user_profile.degree}} from {{user_profile.university}}</li>
+        <li>School : {{user_profile.school}}</li>
+    </ul>
+
+</body>
+</html>
